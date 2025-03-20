@@ -1,3 +1,8 @@
 
-let button = document.querySelector("button");
-console.log(button);
+let button = document.querySelector("#box");
+
+
+button.addEventListener('click', () => {
+   
+  alert("helo world")
+})
